@@ -1,0 +1,15 @@
+[
+  {
+    "name": "db_onfly", 
+    "type": "postgres", 
+    "host": "db_onfly", 
+    "port": 5432, 
+    "username": "postgres", 
+    "password": "postgres",
+    "database ": "db_onfly", 
+    "entities": ["./../../**/*.entity{.ts,.js}"], 
+    "synchronize": false, 
+    "migrations": ["./../../migrations/*.{.ts,.js}"], 
+    "migrationsRun": true 
+  }
+]
